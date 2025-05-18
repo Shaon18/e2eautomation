@@ -1,0 +1,8 @@
+SearchUser='css=input[placeholder="Search user"]'
+SearchButton='css=button[aria-label="Search"]'
+SearchTable='xpath=//td[@data-label="Email"]'
+Tabledata='xpath=//tr[1]/td[2]/a[1]'
+RemoveRequiredTag='xpath=//span[2]/button'
+CloseRequiredTag='xpath=//button[@aria-label="Options menu"]'
+EmailVerified='xpath=//div[4]/div[2]/label/span[1]'
+SaveButton='xpath=//button[normalize-space()="Save"]'

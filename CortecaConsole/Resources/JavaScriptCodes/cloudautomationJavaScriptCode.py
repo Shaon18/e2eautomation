@@ -1,0 +1,27 @@
+# Java Script codes as variable which can be used in functions
+# Speedtest scripts
+
+nwcc_toggle_slider_check="var status = document.querySelectorAll('app-single-point-provision-pv > pv-card > div > div.pv-card__body > form > div.flex-row.flex-row__spacebetween-start > div:nth-child(1) > pv-form-control:nth-child(3) > div > div > pv-toggle > label > input[type=checkbox]')[0].checked ;return status;"
+nwcc_toggle_slider_click = "var status = document.querySelectorAll('body > app-root > app-admin > main > section > div > app-wifi-point-provisioning-page > div > app-single-point-provision-pv > pv-card > div > div.pv-card__body > form > div.flex-row.flex-row__spacebetween-start > div:nth-child(1) > pv-form-control:nth-child(2) > div > div > pv-toggle > label > input')[0].click ;"
+HDM_toggle_slider="var status = document.querySelectorAll('body > app-root > app-admin > main > section > div > app-wifi-point-provisioning-page > div > app-single-point-provision-pv > pv-card > div > div.pv-card__body > form > div.flex-row.flex-row__spacebetween-start > div:nth-child(1) > pv-form-control:nth-child(2) > div > div > pv-toggle > label > input')[0].click;"
+hash_the_password="var status = document.querySelectorAll('body > app-root > app-admin > main > section > div > app-wifi-point-provisioning-page > div > app-single-point-provision-pv > pv-card > div > div.pv-card__body > form > div.flex-row.flex-row__spacebetween-start > div:nth-child(1) > pv-form-control:nth-child(1) > div > div.flex-column > pv-toggle > label > input')[0].click;"
+
+validate_nwcc_slider_check="var status = document.querySelectorAll('body > app-root > app-admin > main > section > div > app-wifi-point-provisioning-page > div > app-validate-provision-pv > pv-card > div > div.pv-card__body > form > div.flex-row.flex-row__spacebetween-start > div:nth-child(1) > pv-form-control:nth-child(3) > div > div > pv-toggle > label > input')[0].checked ;return status;"
+validate_nwcc_slider_click="var status = document.querySelectorAll('body > app-root > app-admin > main > section > div > app-wifi-point-provisioning-page > div > app-validate-provision-pv > pv-card > div > div.pv-card__body > form > div.flex-row.flex-row__spacebetween-start > div:nth-child(1) > pv-form-control:nth-child(3) > div > div > pv-toggle > label > input')[0].click;"
+
+validate_hdm_slider="var status = document.querySelectorAll('body > app-root > app-admin > main > section > div > app-wifi-point-provisioning-page > div > app-validate-provision-pv > pv-card > div > div.pv-card__body > form > div.flex-row.flex-row__spacebetween-start > div:nth-child(1) > pv-form-control:nth-child(2) > div > div > pv-toggle > label > input')[0].click;"
+validate_hash="var status = document.querySelectorAll('body > app-root > app-admin > main > section > div > app-wifi-point-provisioning-page > div > app-validate-provision-pv > pv-card > div > div.pv-card__body > form > div.flex-row.flex-row__spacebetween-start > div:nth-child(1) > pv-form-control:nth-child(1) > div > div.flex-column > pv-toggle > label > input')[0].click;"
+
+delete_nwcc_slider="var status = document.querySelectorAll('body > app-root > app-admin > main > section > div > app-wifi-point-provisioning-page > div > app-delete-provision-pv > pv-card > div > div.pv-card__body > form > div.flex-row.flex-row__spacebetween-start > div.flex-column.flex-column__spacebetween > pv-form-control:nth-child(2) > div > div > pv-toggle > label > input')[0].click;"
+delete_hdm_slider="var status = document.querySelectorAll('body > app-root > app-admin > main > section > div > app-wifi-point-provisioning-page > div > app-delete-provision-pv > pv-card > div > div.pv-card__body > form > div.flex-row.flex-row__spacebetween-start > div.flex-column.flex-column__spacebetween > pv-form-control:nth-child(1) > div > div > pv-toggle > label > input')[0].click;"
+
+NWCC_bulk_provision="var status = document.querySelectorAll('app-bulk-provision-pv > pv-card > div > div.pv-card__body > form > div > div:nth-child(1) > pv-form-control:nth-child(3) > div > div > pv-toggle > label > input')[0].click;"
+
+HDM_bulk_provision="var status = document.querySelectorAll('body > app-root > app-admin > main > section > div > app-wifi-point-provisioning-page > div > app-bulk-provision-pv > pv-card > div > div.pv-card__body > form > div > div:nth-child(1) > pv-form-control:nth-child(2) > div > div > pv-toggle > label')[0].click;"
+
+hash_bulk_provision="var status = document.querySelectorAll('app-bulk-provision-pv > pv-card > div > div.pv-card__body > form > div > div:nth-child(1) > pv-form-control:nth-child(1) > div > div.flex-column > pv-toggle > label > input')[0].click;"
+update_nwcc_provision="/html/body/app-root/app-admin/main/section/div/app-wifi-point-provisioning-page/div/app-update-provision-pv/pv-card/div/div[2]/form/div[1]/div[1]/pv-form-control[2]/div/div/pv-toggle/label/input"
+update_hdm_provision="/html/body/app-root/app-admin/main/section/div/app-wifi-point-provisioning-page/div/app-update-provision-pv/pv-card/div/div[2]/form/div[1]/div[1]/pv-form-control[1]/div/div/pv-toggle/label/input"
+
+validate_enable_ssid_slider = "app-root app-dashborad > div > main > div > div > div > section > app-advance-settings > div > p-tabview > div > div:nth-child(2) > p-tabpanel:nth-child(4) > div > app-usp-wireless5ghz > div:nth-child(1) > div > form > div:nth-child(2) > pv-card > div > div:nth-child(1) > div:nth-child(4) > div > div>pv-toggle>label>input"
+

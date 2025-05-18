@@ -1,0 +1,5 @@
+usern="xpath=//input[@id='username']"
+passwd="xpath=//input[@id='password']"
+logbtn="xpath=//input[@id='loginBT']"
+ssidselect="xpath=//select[@id='wl_id']"
+wpakey="xpath=//input[@id='wpakey_hidden']"
